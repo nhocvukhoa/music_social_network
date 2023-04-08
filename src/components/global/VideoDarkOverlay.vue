@@ -1,5 +1,5 @@
 <template>
-  <div id="videoDarkOverlay"></div>
+	<div id="videoDarkOverlay"></div>
 	<video autoplay muted loop id="myVideo">
 		<source src="../../../public/videos/rock.mp4" type="video/mp4">
 	</video>
