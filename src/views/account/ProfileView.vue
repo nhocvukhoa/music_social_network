@@ -15,7 +15,7 @@
 				</div>
 				<div class="w-1/2 mt-2">
 					<RouterLinkButton btnText="Edit profile"
-						class="hover:bg-green-500 border-green-500"
+						color="green"
 						url="/account/edit-profile" />
 				</div>
 			</div>

@@ -5,20 +5,22 @@
 			<div class="bg-green-500 w-full h-1"></div>
 
 			<div class="w-full mt-4">
-				<RouterLinkButton class="ml-2 hover:bg-red-500 border-red-500"
+				<RouterLinkButton class="ml-2"
+						color="red"
 						btnText="Delete Song"
 						url="/account/delete-song"
 				/>
-				
-				<RouterLinkButton class=" hover:bg-green-500 border-green-500"
+				<RouterLinkButton
 					btnText="Add Song"
 					color="green"
 					url="/account/add-song" />
 			</div>
 		</div>
 	</div>
+	<SongsPlayer />
 </template>
 
 <script setup>
+import SongsPlayer from './SongsPlayer.vue';
 import RouterLinkButton from '../../../components/global/RouterLinkButton.vue';
 </script>
