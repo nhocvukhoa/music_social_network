@@ -6,8 +6,8 @@
 
 			<div class="w-full mt-4">
 				<RouterLinkButton class="ml-2 border-red-500 hover:bg-red-500"
-						btnText="Delete Song"
-						url="/account/delete-song"
+					btnText="Delete Song"
+					url="/account/delete-song"
 				/>
 				<RouterLinkButton
 					btnText="Add Song"
@@ -18,10 +18,12 @@
 	</div>
 	<SongsPlayer />
 	<YoutubeVideosSection />
+	<PostSection />
 </template>
 
 <script setup>
 import SongsPlayer from './SongsPlayer.vue';
 import YoutubeVideosSection from './YoutubeVideosSection.vue';
+import PostSection from './PostSection.vue';
 import RouterLinkButton from '../../../components/global/RouterLinkButton.vue';
 </script>
