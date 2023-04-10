@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <div class="flex flex-wrap mb-4">
+  <div class="flex flex-wrap mb-2">
     <div class="my-1 px-1 w-full md:w-1/2 lg:w-1/2">
       <div class="max-w-sm border rounded-lg shadow">
         <a href="#">
