@@ -36,6 +36,11 @@ const routes = [
         path: 'add-song',
         name: 'AddSong',
         component: () => import('../views/account/AddSongView.vue')
+      },
+      {
+        path: 'delete-song',
+        name: 'DeleteSong',
+        component: () => import('../views/account/DeleteSongView.vue')
       }
     ]
   },
