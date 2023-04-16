@@ -41,7 +41,12 @@ const routes = [
         path: 'delete-song',
         name: 'DeleteSong',
         component: () => import('../views/account/DeleteSongView.vue')
-      }
+      },
+      {
+        path: 'add-youtube-video',
+        name: 'AddYoutubeVideo',
+        component: () => import('../views/account/AddVideoView.vue')
+      },
     ]
   },
 ]
