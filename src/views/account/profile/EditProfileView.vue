@@ -87,12 +87,12 @@
 
 <script setup>
 import { ref } from 'vue'
-import CropperImage from '../../components/global/CropperImage.vue'
-import TextInput from '../../components/global/TextInput.vue';
-import TextArea from '../../components/global/TextArea.vue';
-import CropperModal from '../../components/global/CropperModal.vue';
-import SubmitFormButton from '../../components/global/SubmitFormButton.vue';
-import DisplayCropperButton from '../../components/global/DisplayCropperButton.vue';
+import CropperImage from '../../../components/global/CropperImage.vue'
+import TextInput from '../../../components/global/TextInput.vue';
+import TextArea from '../../../components/global/TextArea.vue';
+import CropperModal from '../../../components/global/CropperModal.vue';
+import SubmitFormButton from '../../../components/global/SubmitFormButton.vue';
+import DisplayCropperButton from '../../../components/global/DisplayCropperButton.vue';
 
 let showModal = ref(false)
 let firstName = ref(null)

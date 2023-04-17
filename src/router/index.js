@@ -30,27 +30,32 @@ const routes = [
       {
         path: 'edit-profile',
         name: 'EditProfile',
-        component: () => import('../views/account/EditProfileView.vue')
+        component: () => import('../views/account/profile/EditProfileView.vue')
       },
       {
         path: 'add-song',
         name: 'AddSong',
-        component: () => import('../views/account/AddSongView.vue')
+        component: () => import('../views/account/songs/AddSongView.vue')
       },
       {
         path: 'delete-song',
         name: 'DeleteSong',
-        component: () => import('../views/account/DeleteSongView.vue')
+        component: () => import('../views/account/songs/DeleteSongView.vue')
       },
       {
         path: 'add-youtube-video',
         name: 'AddYoutubeVideo',
-        component: () => import('../views/account/AddVideoView.vue')
+        component: () => import('../views/account/videos/AddVideoView.vue')
       },
       {
         path: 'delete-youtube-video',
         name: 'DeleteYoutubeVideo',
-        component: () => import('../views/account/DeleteVideoView.vue')
+        component: () => import('../views/account/videos/DeleteVideoView.vue')
+      },
+      {
+        path: 'add-post',
+        name: 'AddPost',
+        component: () => import('../views/account/posts/AddPostView.vue')
       },
     ]
   },
