@@ -62,6 +62,16 @@ const routes = [
         name: 'EditPost',
         component: () => import('../views/account/posts/EditPostView.vue')
       },
+      {
+        path: 'posts',
+        name: 'ListPosts',
+        component: () => import('../views/account/posts/ListPostsView.vue')
+      },
+      {
+        path: 'posts/detail',
+        name: 'PostDetail',
+        component: () => import('../views/account/posts/PostDetailView.vue')
+      },
     ]
   },
 ]
