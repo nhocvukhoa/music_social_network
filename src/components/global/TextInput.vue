@@ -1,7 +1,7 @@
 <template>
   <div>
     <label
-      class="block uppercase tracking-wide text-xs font-bold mb-2"
+      class="block uppercase tracking-wide text-xs font-bold mb-2 mt-2 sm:mt-0"
       :class="[labelColor ? 'text-black-900' : 'text-black-100']"
     >
       {{ label }}
