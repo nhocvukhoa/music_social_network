@@ -57,6 +57,11 @@ const routes = [
         name: 'AddPost',
         component: () => import('../views/account/posts/AddPostView.vue')
       },
+      {
+        path: 'edit-post',
+        name: 'EditPost',
+        component: () => import('../views/account/posts/EditPostView.vue')
+      },
     ]
   },
 ]
