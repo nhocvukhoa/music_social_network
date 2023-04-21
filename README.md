@@ -8,6 +8,7 @@
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" class="mr-2" alt="Bootstrap" title="Bootstrap" />
 <img height="50" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" class="mr-2" alt="Tailwind CSS" title="Tailwind CSS" />
 <img height="50" src="https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png" alt="Vue.js" title="Vue.js" />
+<img height="50" src="https://pinia.vuejs.org/logo.svg" alt="Pinia" title="Pinia" />
 </div>
 
 ## Project setup
