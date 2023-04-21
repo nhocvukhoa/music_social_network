@@ -15,7 +15,7 @@
 				<router-link class="w-full mr-1 py-2 px-4 bg-green-600 text-white text-center
 					font-semibold text-xl sm:text-2xl rounded-lg shadow-md hover:bg-green-500 cursor-pointer
 					focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75" 
-					to="">Login</router-link>
+					:to="{ name: 'login' }">Login</router-link>
 				<router-link class="w-full mr-1 py-2 px-4 bg-blue-600 text-white text-center
 					font-semibold text-xl sm:text-2xl rounded-lg shadow-md hover:bg-blue-500 cursor-pointer
 					focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" 
