@@ -1,5 +1,5 @@
 <template>
-  <div id="register">
+  <div id="login">
     <div class="w-full p-6 flex flex-col justify-center items-center">
       <div class="w-full sm:w-2/3 md:w-2/3 lg:w-1/3 bg-white p-8 shadow rounded mb-6">
         <h1 class="mb-6 text-lg text-black font-medium">Let's get rocking!</h1>
